@@ -133,7 +133,7 @@ A Spring Boot application that provides a REST API for managing and executing sh
 *Screenshot showing task creation and execution with Kubernetes pod*
 
 ### 8. Complete Deployment
-![Complete Deployment](screenshots/Screenshot%202025-10-20%20140433.png")
+![Complete Deployment](screenshots/Screenshot%202025-10-20%20140433.png)
 *Screenshot of `kubectl get all` showing full deployment*
 
 
