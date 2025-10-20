@@ -104,49 +104,38 @@ A Spring Boot application that provides a REST API for managing and executing sh
 
 ## 📸 Deployment Screenshots
 
-### 1. Clean Environment Setup
-![Clean Environment](screenshots/01-clean-environment.png)
-*Screenshot showing clean Kubernetes environment with only the default kubernetes service*
-
-### 2. Docker Image Build
-![Docker Build](screenshots/02-docker-build.png)
+### 1. Docker Image Build
+![Docker Build](screenshots/Screenshot 2025-10-20 135337.png)
 *Screenshot of `docker images task-manager` showing the built image*
 
-### 3. MongoDB Deployment
-![MongoDB Deploy](screenshots/03-mongodb-deploy.png)
+### 2. MongoDB Deployment
+![MongoDB Deploy](screenshots/Screenshot 2025-10-20 135516.png)
 *Screenshot of `kubectl apply -f k8s/mongodb-simple.yaml` command output*
 
-### 4. MongoDB Verification
-![MongoDB Verification](screenshots/04-mongodb-verification.png)
+### 3. MongoDB Verification
+![MongoDB Verification](screenshots/Screenshot 2025-10-20 135700.png)
 *Screenshots showing MongoDB pod running and persistent volume bound*
 
-### 5. Application Deployment
-![App Deploy](screenshots/05-app-deploy.png)
+### 4. Application Deployment
+![App Deploy](screenshots/Screenshot 2025-10-20 135800.png)
 *Screenshots of both deployment commands for the task manager application*
 
-### 6. All Pods Running
-![Pods Running](screenshots/06-pods-running.png)
+### 5. All Pods Running
+![Pods Running](screenshots/Screenshot 2025-10-20 140118.png)
 *Screenshots showing all pods ready and LoadBalancer service active*
 
-### 7. Health Endpoint Test
-![Health Test](screenshots/07-health-test.png)
+### 6. Health Endpoint Test
+![Health Test](screenshots/Screenshot 2025-10-20 140150.png)
 *Screenshot of successful health endpoint response*
 
-### 8. Task Execution Demo
-![Task Execution](screenshots/08-task-execution.png)
+### 7. Task Execution Demo
+![Task Execution](screenshots/Screenshot 2025-10-20 140217.png)
 *Screenshot showing task creation and execution with Kubernetes pod*
 
-### 9. Complete Deployment
-![Complete Deployment](screenshots/09-complete-deployment.png)
+### 8. Complete Deployment
+![Complete Deployment](screenshots/Screenshot 2025-10-20 140433.png")
 *Screenshot of `kubectl get all` showing full deployment*
 
-### 10. RBAC Configuration
-![RBAC Config](screenshots/10-rbac-config.png)
-*Screenshot showing service account and cluster role bindings*
-
-### 11. Detailed Deployment Info
-![Detailed Info](screenshots/11-detailed-info.png)
-*Screenshot of `kubectl get all -o wide` showing detailed deployment information*
 
 ## 🧪 Testing the API
 
